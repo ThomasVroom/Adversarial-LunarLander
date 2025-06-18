@@ -2,7 +2,7 @@
 
 A project investigating the use of [Double-Deep Q-Networks (DDQN)](https://dilithjay.com/blog/ddqn) and [Proximal-Policy Optimization (PPO)](https://en.wikipedia.org/wiki/Proximal_policy_optimization) for an adversarial version of the [LunarLander-v3](https://gymnasium.farama.org/environments/box2d/lunar_lander/) environment.
 
-<img src="https://gymnasium.farama.org/_images/lunar_lander.gif" height="300"/> <img src="image.png" height="300"/> 
+<img src="https://gymnasium.farama.org/_images/lunar_lander.gif" height="275"/> <img src="image.png" height="275"/> 
 
 ### Install
 This project was developed with Python 3.13.3, but should work in any version as long as all the dependencies (found in `requirements.txt`) are available.

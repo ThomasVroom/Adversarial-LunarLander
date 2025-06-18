@@ -1,13 +1,13 @@
 # Adversarial-LunarLander
 
-A project investigating the use of [Double-Deep Q-Networks (DDQN)](https://dilithjay.com/blog/ddqn) and [Proximal-Policy Optimization (PPO)](https://en.wikipedia.org/wiki/Proximal_policy_optimization) for an adversarial-version of the [LunarLander-v3](https://gymnasium.farama.org/environments/box2d/lunar_lander/) environment.
+A project investigating the use of [Double-Deep Q-Networks (DDQN)](https://dilithjay.com/blog/ddqn) and [Proximal-Policy Optimization (PPO)](https://en.wikipedia.org/wiki/Proximal_policy_optimization) for an adversarial version of the [LunarLander-v3](https://gymnasium.farama.org/environments/box2d/lunar_lander/) environment.
 
-![preview](image.png)
+<img src="https://gymnasium.farama.org/_images/lunar_lander.gif" width="425"/> <img src="image.png" width="425"/> 
 
 ### Install
 This project was developed with Python 3.13.3, but should work in any version as long as all the dependencies (found in `requirements.txt`) are available.
-The code is compatible with CUDA, but you would need to manually install torch from their [website](https://pytorch.org/).
-To use the code as-is, you would need to create your own [Weights and Biases](https://wandb.ai/site/) account and log in when prompted through the code.
+The code is compatible with CUDA, but you will need to manually install the correct [torch](https://pytorch.org/) version.
+To use the code as-is, you need to create your own [Weights and Biases](https://wandb.ai/site/) account and log in when prompted through the code.
 
 ### Usage
 `src/env/CustomLunarLander` is an exact copy of Gym's LunarLander-v3.
@@ -21,4 +21,5 @@ Further explanation about the topic of adversarial RL, hyperparameter choices, e
 
 ### About
 Developed by Thomas Vroom, Maastricht University (2025), for the final assignment of the KEN4157 Reinforcement Learning course.
+
 Feel free to modify, adapt, or use the code in any way.

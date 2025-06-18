@@ -1,0 +1,12 @@
+wandb
+tqdm
+torch
+tensorboard
+seaborn
+matplotlib
+pandas
+numpy
+ipykernel
+swig
+gymnasium[box2d]
+pygame
